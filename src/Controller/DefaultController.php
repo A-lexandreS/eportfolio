@@ -8,11 +8,9 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class DefaultController extends AbstractController
 {
-    #[Route('/default', name: 'app_default')]
-    public function index(): Response
+    #[Route('/', name: 'app_default')]
+    public function home(): Response
     {
-        return $this->render('default/index.html.twig', [
-            'controller_name' => 'DefaultController',
-        ]);
+       return $this->render('default/home.html.twig', []);
     }
 }
