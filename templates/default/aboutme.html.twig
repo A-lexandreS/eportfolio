@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}about Me !{% endblock %}
+
+{% block body %}
+<main id="main">
+
+    <section class="section pb-5">
+        <div class="container">
+            <div class="row mb-5 align-items-end">
+                <div class="col-md-6" data-aos="fade-up">
+                    <h2>À propos de moi</h2>
+                    <p class="mb-0">Mon parcours, mes expériences</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
+                    <h3 class="h3 mb-4">Skills</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <div class="d-flex mb-1">
+                                <strong> - WordPress</strong>
+                            </div>
+                        </li>
+                        <li class="mb-3">
+                            <div class="d-flex mb-1">
+                                <strong> - HTML5/CSS3</strong>
+                            </div>
+                        </li>
+                        <li class="mb-3">
+                            <div class="d-flex mb-1">
+                                <strong> - Javascript</strong>
+                            </div>
+                        </li>
+                        <li class="mb-3">
+                            <div class="d-flex mb-1">
+                                <strong> - PHP + Symfony</strong>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-7 mb-5 mb-md-0" data-aos="fade-up">
+                    <p><img src="{{ asset( 'img/img-aboutme.jpg' ) }}" alt="Image" class="img-fluid"></p>
+                    <p>Diplômé d'un bac en communication et gestion des ressources humaines, j'ai choisi de m'orienter très jeune vers un métier militaire et j'ai choisis la gendarmerie.</p>
+                    <p>Aimant le sport et la polyvalence des tâches, j'ai développé dans ce métier des compétences humaines et une bonne aisance orale qui m'ont servis par la suite.</p>
+                    <p>Lorsque j'étais agent de comptoir pour un fournisseur en matériel de sécurité, j'ai établi des devis et préparer des commandes pour le compte de cette entreprise.</p>
+                    <p>Cela m'a permis de développer mon sens du contact client que j'ai par la suite confirmé en tant qu'agent de sécurité dans un casino de jeux.</p>
+                    <p>Dans ce type d'établissement, le contact était primordial pour pouvoir obtenir les bonnes grâces des clients, notamment pour les pourboires. Un système de voiturier étais mis en place au sein de l'établissemnt. J'ai appris beaucoup d'astuces au niveau de la gestion humaine d'une personne.</p>
+                    <p>J'ai également aiguisé mon sens de l'observation et mon analyse.</p>
+                    <p>Au niveau de ma personne, je suis plutôt quelqun de positif et déterminé à réussir.</p>
+                    <p>Ce que j'apprécie le plus est sûrement le sport ainsi que les promenades en pleine nature. J'affectionne aussi les voyages plus généralement et les sorties.</p>
+                    <p>Pour le futur, j'aimerais pouvoir avoir une meilleur maîtrise des langues.(Anglais et espagnol)</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main><!-- End #main -->
+
+{% endblock %}
